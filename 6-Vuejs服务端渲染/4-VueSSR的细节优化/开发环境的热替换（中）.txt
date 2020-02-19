@@ -1,0 +1,28 @@
+编写devRender函数
+
+dev.tool是监听webpack编译bundle和manifest完成的事件用的
+
+================
+
+需要完成任务：
+1/监听dev-tool里面的compiler完成事件，完成后使用最新的bundle和clientmanifest创建渲染器，通过回调函数的形式
+
+devTools.subscrible((bundle,clientManifest)=>{
+创建渲染器渲染，renderer=createBundleRenderer
+})
+
+devRender函数需要以下三个中间键，利用koa-compose链接
+devMiddleware
+hotMiddleware
+renderPage = async(ctx,next)=>{
+ctx.type = html
+ctx.body = await renderer.renderToString({
+url:ctx.url
+})
+}
+const fn=compose([三个中间键])
+
+fn（ctx）
+
+第一第二个从devTool中引入
+================

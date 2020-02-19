@@ -1,0 +1,10 @@
+link.js和view.js
+利用render api渲染的
+
+view，关键是depth，嵌套深度
+
+route.matched[depth]，当前路由匹配的所有路由记录的集合
+
+找到了很多记录，利用name属性去区分到底是哪一个需要渲染的组件
+
+根据深度纵向找maprecord，然后横向找符合的视图 

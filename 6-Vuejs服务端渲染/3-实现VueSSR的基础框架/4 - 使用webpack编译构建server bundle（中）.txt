@@ -1,0 +1,15 @@
+项目目录：
+src，项目源码
+build，webpack编译脚本
+==================
+
+编写第一步，改写入口文件
+
+创建createapp.js
+
+entry-client.js，进行app挂载
+
+entry-server.js，koa把请求上下文或url传递近函数，接管路由，koa把路由下匹配的组件树导出
+
+==================
+

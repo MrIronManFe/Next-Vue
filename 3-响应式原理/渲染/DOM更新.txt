@@ -1,0 +1,9 @@
+调用_render生成虚拟函数
+
+_update里面的_patch_方法
+
+patchVnode，diff算法
+
+第一个$mount生成render函数，
+第二个$mount是位置挂载
+

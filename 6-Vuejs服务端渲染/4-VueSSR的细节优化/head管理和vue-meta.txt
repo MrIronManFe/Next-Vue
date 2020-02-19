@@ -1,0 +1,17 @@
+什么是head，例如title，keywaord，description等
+
+纯前端，mounted挂载后拿出titile属性赋值document.title
+
+SSR在created钩子后，赋值context上下文，在template渲染出来
+
+创建mixin文件，判断环境
+client的话就是在mouted中实现
+server的话就是在create中实现
+
+前端中对爬虫其实没有什么效果，要处理渲染模板
+
+生产环境下建议使用view-meta第三方插件
+1/引入，vue.use
+2/组件设置metaInfo
+3/context.meta=app.$meta()
+4/修改模板，meta.inject().title.text(),字符串

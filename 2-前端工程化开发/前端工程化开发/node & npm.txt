@@ -1,0 +1,11 @@
+node，运行在服务端的js
+
+npm，nodejs的默认包管理工作
+
+全局安装和本地安装
+
+npm root -g查看全局安装目录
+
+--save-dev，当前项目中的node_modules文件夹中
+
+项目依赖时，本地安装

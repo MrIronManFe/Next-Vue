@@ -1,0 +1,9 @@
+侦听器和$watch
+
+data.counter，侦听器类型的watcher
+
+initWatch->$watch
+
+this.是侦听器，expression是count
+
+可以穿immediate、deep、unwatch等参数

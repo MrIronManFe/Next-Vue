@@ -1,0 +1,12 @@
+和数据相关的方法
+Vm.$watch( expOrFn, callback, [options] )，会返回一个结果，可以取消监听
+$set，向响应式对象中添加一个属性，Vm.$set( target, propertyName/index, value )
+$delete,删除一个属性，Vm.$delete( target, propertyName/index )
+
+事件相关的方法
+注册事件，Vm.$on( event, callback )
+触发事件，vm.$emit( eventName, […args] )
+只触发一次，vm.$once( event, callback )
+移除监听器vm.$off( [event, callback] )
+
+生命周期的方法

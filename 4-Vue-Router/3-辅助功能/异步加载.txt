@@ -1,0 +1,9 @@
+webpack和vue-router的结合，异步加载
+
+webpack常用插件，bundleAnalyzerPlugin，分析初次打包时体积，以及每个包占体积的大小
+
+import作为一个函数返回一个promise，接受路径
+
+需要babel插件
+
+写注释,webpackCunkeName:""

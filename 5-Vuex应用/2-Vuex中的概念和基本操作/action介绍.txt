@@ -1,0 +1,11 @@
+action进行异步操作，然后里面触发mutation
+
+一般先从后台获取数据
+
+参数context，默认是一个store就好了
+
+会返回一个promise
+
+action中保存多个页面的异步操作
+
+action里面可以调用另外一个action

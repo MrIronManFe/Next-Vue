@@ -1,0 +1,5 @@
+init函数中开始，initMixin
+
+先看有没有render函数，没有取模板，再没有用el。
+
+最终归宿都是生成render函数，然后调用生成visual dom

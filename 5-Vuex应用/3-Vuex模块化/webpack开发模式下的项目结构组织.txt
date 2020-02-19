@@ -1,0 +1,6 @@
+事件名常量化，把mutaion所有的type名称抽离到mutation-types.js中
+
+[CHANGE_AGE]();
+
+
+

@@ -1,0 +1,5 @@
+v-model会自动改变data里面的数据
+
+自己实现input事件
+
+给计算属性设置get函数和set函数

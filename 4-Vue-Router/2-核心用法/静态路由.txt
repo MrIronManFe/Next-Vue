@@ -1,0 +1,11 @@
+标签引入：
+script
+
+模块引入：
+import Vue from Vue
+import VueRouter from vue-router
+
+Vue.use(VueRouter)
+
+router-link
+router-view

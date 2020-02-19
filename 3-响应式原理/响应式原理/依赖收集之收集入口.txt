@@ -1,0 +1,13 @@
+通过get入口，收集依赖
+
+vue哪一个生命周期开始进行收集依赖
+
+执行mount函数，先执行runtime里面的vue.prototype.$mount函数
+
+每一个vue实例只有一个renderWatcher
+
+只要执行了_render就会把所有data的get属性走一遍
+
+流程：
+
+一些列操作，initData什么的，然后$mount，然后new一个渲染watcher，然后传入定义的updateComponent回调函数，updateComponent调用_render函数，_render函数把响应式data的get属性全走一边，然后开始收集依赖，注意dep.target为true时才能开始

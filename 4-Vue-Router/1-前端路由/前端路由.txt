@@ -1,0 +1,8 @@
+通过url地址传递给不同的处理程序，响应后返回某些结果
+
+URL：
+protocal//hostname:port/pathname?search#hash
+
+协议//主机名：端口（默认端口80可不写）/路径？参数#哈希
+
+window.location

@@ -1,0 +1,7 @@
+前端代码本来就是用webpack打包的，我们要做到结果的复用
+直接用vue-loader来动态加载vue单文件在node.js中不行
+前端代码使用的import等esmodule语法不能被node直接支持
+
+================
+
+浏览器发送服务端请求到node，koaserver看是否已经被koa-static托管处理，如果是返回静态资源文件，如果没有，交给Vue-server-render处理，renderer通过webpack打包好的vue-server-bundle文件和模板生成相对应的html资源返回给浏览器，浏览器再请求组件需要的js，css文件，js和css已经通过koa-static托管了，直接返回。 

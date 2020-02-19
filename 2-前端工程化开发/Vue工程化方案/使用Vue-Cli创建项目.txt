@@ -1,0 +1,12 @@
+Vue project
+Vue-cli
+npm
+node
+上层基于node完成的，通过npm包安装，脚手架Vue-cli根据模板（webpack、bible等）生成Vue空项目
+
+主版本号.次版本号.修订版本号，同一主版本号下功能基本不变
+
+国内镜像，指定版本号安装@
+
+vue ui，vue create project name
+

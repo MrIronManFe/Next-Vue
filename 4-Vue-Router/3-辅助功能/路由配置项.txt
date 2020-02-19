@@ -1,0 +1,9 @@
+route配置项：
+
+name属性
+
+redirect，重定向
+
+alias，别名
+
+meta，路由元信息

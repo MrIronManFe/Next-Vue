@@ -1,0 +1,36 @@
+Koa是由express原班人马打造的，采用了async和await的方式执行异步操作
+
+现在应该是koa2了
+
+middleware，中间键，洋葱模型，处理完所有的request后，返回处理respone
+
+const Koa = require('koa')
+
+const app = new Koa
+
+app.listen(3000)
+
+使用app.use(async(ctx,next)=>{
+大部分都是操作ctx，ctx是上下文
+一般最后一个中间键处理主要业务逻辑
+await next
+})
+
+nodemon 自动刷新
+
+=============
+
+常用的中间键：
+
+koa-static，读取静态文件
+koa-favicon，图标
+koa-router,路由
+
+=============
+
+后端开发目录（MVC模式），src下目录文件
+controler
+middleware
+model
+views
+routers

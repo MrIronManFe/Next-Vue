@@ -1,0 +1,12 @@
+node_modules，依赖包
+public，公共文件
+index.html，浏览器入口
+src，源码区
+assets，资源文件
+components，组件
+app.vue，根组件
+main.js，webpack打包入口文件
+vue.config.js，自己修改的配置
+readme，项目说明
+package.jason，说明项目基本信息
+package-lock.json，锁版本号

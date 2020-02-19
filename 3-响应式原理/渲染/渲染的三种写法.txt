@@ -1,0 +1,5 @@
+el挂载，传入一个元素作为el
+
+template模板，传入template，但是要调用$mount函数，手动挂载
+
+自定义render函数，没有el也没有template，利用render函数返回createElement函数，通过传入参数生成虚拟dom

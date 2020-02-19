@@ -1,0 +1,20 @@
+git分布式版本控制系统
+svn集中式版本管理系统，必须联网
+
+暂存区，git add命令到暂存区，git commit
+
+push到远程仓库
+
+git clone，克隆远程项目
+
+git checkout -b [name]
+
+git checkout <name>
+
+git branch
+
+git merge <name>
+
+git push origin <name>
+
+git pull orgin <name>

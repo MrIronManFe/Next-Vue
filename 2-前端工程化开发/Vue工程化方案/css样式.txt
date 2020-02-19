@@ -1,0 +1,5 @@
+npm bootstrap
+
+import bootstrap
+
+把index.css中的分别放回组件内

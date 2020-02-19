@@ -1,0 +1,7 @@
+单文件组件,后缀名vue
+
+template,script,style
+
+浏览器访问index.html，app.vue根组件,根组件引入别的组件
+
+config.devtool = 'source-map'

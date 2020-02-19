@@ -1,0 +1,13 @@
+history文件
+base定义了基类，其他继承
+定义了go等抽象方法
+transitionTo
+confirmTransition，路由导航，完成后调用回调函数更新路由对象，更新完毕后执行自己的回调根后置钩子
+
+abstract，在不是浏览器里面调用的
+
+confirmTransition，解决导航守卫问题，queue是一个数组，里面的顺序是根据导航守卫排序的。
+iterator，迭代器，接受hook，和next
+runQueue方法，queue，iterator，回调，回调函数是下一个组件内钩子得queue，最后的最后调用的是oncompete函数
+
+aop设计，面向切面编程，中间键

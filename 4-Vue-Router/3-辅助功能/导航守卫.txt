@@ -1,0 +1,17 @@
+导航守卫，路由钩子
+
+全局注册：全局
+router.beforeEach
+router.beforeResolve，路由被解释之前，beforeEach之后
+router.afterEach，后置钩子，没有next
+
+路由注册：某个路由
+routes::beforeEnter，例子，登陆
+
+组件注册：组件
+component::beforeRouteEnter
+component::beforeRouteUpdate
+component::beforeRouteLeave
+
+赋值，鉴权
+

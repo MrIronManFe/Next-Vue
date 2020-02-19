@@ -1,0 +1,1 @@
+ES5特性，object.defineProperty，所以ie6不支持2

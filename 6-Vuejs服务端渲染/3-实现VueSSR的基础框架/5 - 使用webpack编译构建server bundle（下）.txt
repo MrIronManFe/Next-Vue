@@ -1,0 +1,34 @@
+编写server.config配置
+
+引入需要的包：
+webpack、webpack-merge、base.conf.js、webpack-node-externals、vuessrplugin
+
+=============
+
+导出和base.confi.js合并后的配置文件：
+target:node
+devtool:source-map
+entry
+output:{
+filename:
+librartTarget
+}
+enternals:	nodeExternals({
+	whitelist:/\.css$/
+})
+plugins:[
+new VueSSRPlugin
+new webpack.definePlugin({
+process.env.node_env(所属环境)
+process.env.vue_env（客户端还是服务器端）
+})
+]
+
+==================
+
+修改编译脚本
+
+    "build:client": "cross-env BUILD_TARGET=client node build/build.js",
+    "build:server": "cross-env BUILD_TARGET=server node build/build.js",
+
+记得安装corss-env

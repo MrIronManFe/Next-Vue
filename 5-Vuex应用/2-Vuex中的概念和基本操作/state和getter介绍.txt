@@ -1,0 +1,12 @@
+mapState，传入数组或者对象
+如果computed之前已经有函数了，使用...mapState解构
+
+getter是属性，不是函数
+
+辅助函数mapGetters
+
+getter里面的函数可以接受第二个参数getters，获取别的getters
+
+也可以返回一个函数，然后可以传参了使用了
+
+原始数据返回用state，处理后的用getters

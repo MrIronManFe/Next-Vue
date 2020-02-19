@@ -1,0 +1,9 @@
+用api方式扩展confirm
+
+第一步，变成.vue文件
+
+install函数，声明一个插件，调用use方法
+
+footer组件
+
+es6语法修改一下

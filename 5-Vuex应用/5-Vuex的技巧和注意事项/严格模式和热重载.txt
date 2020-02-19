@@ -1,0 +1,6 @@
+建议打开严格模式，不过不要在生产环境开启，要判断环境
+strict：debug
+
+热重载，在index检查module.hot
+
+store.hotUpdate()

@@ -1,0 +1,6 @@
+更改Vuex的store中的状态的唯一方法
+
+mutation包含event，handler，payload
+
+mutation做了镜像快照的能力，异步会无法完成这个能力
+

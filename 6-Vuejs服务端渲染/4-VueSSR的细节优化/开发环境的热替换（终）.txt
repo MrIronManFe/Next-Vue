@@ -1,0 +1,6 @@
+创建servercomplier
+
+mfs，内存管理系统
+
+监听serverCompiler事件，用watch，调用update
+

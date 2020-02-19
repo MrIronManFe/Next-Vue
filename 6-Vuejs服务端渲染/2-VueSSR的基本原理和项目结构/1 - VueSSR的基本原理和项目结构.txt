@@ -1,0 +1,5 @@
+通过renderToString函数渲染成字符串
+
+Vue生成虚拟dom，生成domString，然后传给中间层node，node再吐回给浏览器
+
+一份通用代码，通过app.js划分不一样的入口（server entry/client entry），webpack进行打包，生成server Bundle和Client Bundle

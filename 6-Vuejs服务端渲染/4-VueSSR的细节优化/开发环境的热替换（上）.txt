@@ -1,0 +1,7 @@
+webpack-dev-middleware
+
+监听源码变更，通过回调函数的方式通知koa，客户请求后拿到新的hundle和manifest文件渲染新的页面
+
+homeController里面判断是生产环境还是开发环境
+
+改写为utils下的生产环境render文件

@@ -1,0 +1,10 @@
+计算属性的依赖收集和数据更新
+
+计算属性收集依赖时候，收集依赖的deps
+
+initDate
+
+initComputed，给每一个属性都创建了一个watcher，传入了lazy属性
+
+第一次的pushtarget是renderWatcher，里面依赖传进去的watcher是计算属性的watcher
+

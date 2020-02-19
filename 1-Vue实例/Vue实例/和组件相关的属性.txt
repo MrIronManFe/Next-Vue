@@ -1,0 +1,7 @@
+组件的本质是vue实例，可复用
+
+$parent，父节点
+$root，根节点
+$children，子节点
+$props，父组件传递给子组件的数据
+$slots，scopedSlots，通过插槽传递给组件的内容

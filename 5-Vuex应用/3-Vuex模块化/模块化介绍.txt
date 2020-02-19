@@ -1,0 +1,6 @@
+定义modules模块
+
+模块内mutation函数接受的state参数是模块内部的state。
+
+如果没有添加namespace属性的话，所有的mutaion和getter什么的都是在全局上的
+

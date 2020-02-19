@@ -1,0 +1,20 @@
+在initstate里面实现initdata
+
+initdata里面利用proxy代理了data属性
+
+vm.message返回的是vm._data.message
+
+observe函数里面调用了walk函数
+
+流程：
+把data传入observe函数，如果data里面有数组，就拆分数组，然后获取所有的keys，连同obj一起传入defineReactive
+
+core/instance/state.js=>initData->observe
+
+=>core/observer/index.js
+func:observe->
+new Watcher()->
+class:Observer->
+func:constructor->
+func:walk->
+func:defineReactive

@@ -1,0 +1,12 @@
+数据更新，触发data属性set，订阅者通知观察者，观察者更新视图
+
+dep.notify（），
+
+dep里面的subs数组更新，就是watcher（渲染watcher）,watcher里面的update方法
+
+流程：
+触发响应式属性的set方法，set方法触发dep.notify，dep里面的subs（就是watcher），调用update方法，随即判断三种情况
+
+1、lazy=ture，标记计算属性懒更新
+2、调用watcher.run方法->watcher.get->getter（updateCompon方法实际是）.call->_update->_render，视图更新和依赖更新都进行，最后清理一下，cleanupDeps
+3、把需要更新的watcher压入队列，调用queueWatcher方法，返回步骤2

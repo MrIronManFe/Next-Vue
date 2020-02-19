@@ -1,0 +1,12 @@
+登陆请求，会到后台查询数据库，有的话返回，设置cookies的token和用户名
+
+下次访问用户信息内容必须带上token才可以成功访问
+
+到用户页面还会有一个请求，请求用户信息
+
+前端通过vue路由钩子beforeeach去调用啊syncdatahooks函数做数据预取
+
+asyncData要判断执行环境
+
+this.$ssrContext，组件实例化后使用
+

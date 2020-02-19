@@ -1,0 +1,17 @@
+VueRouter主要根据history和hash两种模式不同实现。
+
+history中pushState和replaceState
+会改变url但是不会向服务器发送请求，
+浏览器的后退会触发popstate事件，刷新页面会触发load事件并且重新发送请求
+
+hash中location.hash的改变，或者浏览器的前进后退，触发hashchange事件，而f5刷新触发的是load事件
+
+=====================
+
+VueRouter大致流程
+
+我们会传入routes对向，里面有各种参数，会主要根据path参数通过函数扁平化处理，生成pathMap，路径和路由的映射，类似于字典（同时也会生成nameMap）。
+
+当输入url以后，我们将会根据当前url所需要的location在上述地图中寻找到相对应的record信息，record信息内记录了相对应的组件信息等，从而返回相对应的路由对象。
+
+然后更新路由对象，渲染组件等

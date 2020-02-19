@@ -1,0 +1,17 @@
+window.history.pushState
+window.history.replaceState
+
+改变url，改变真实路径，不向服务器发送请求
+
+window.onpopstate，浏览器前进后退触发，前两个不会触发
+
+找不到资源时要返回
+
+hash和history的对比：
+hash，丑
+hash会占用锚点功能
+兼容性较好
+
+history，路由和后端没有分别
+ie10以及以上
+需要后端支持

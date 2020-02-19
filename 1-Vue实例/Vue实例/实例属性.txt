@@ -1,0 +1,6 @@
+el：挂载点
+data：数据对象
+$el，vue挂载的属性
+$data，响应式
+$options，生成时传入的选项
+$refs

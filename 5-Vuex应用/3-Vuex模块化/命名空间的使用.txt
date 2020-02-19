@@ -1,0 +1,15 @@
+模块内部添加namespaced属性，其余mutation就在内部了
+调用时添加路径
+
+第4个参数rootGetters
+
+context.rootState,context.rootGetters
+
+commit的第三个参数{root:true}，第二个是payload
+
+mapGetteres('命名空间'，['info'])
+
+createNamespaceHelpers函数，创建自定义的mapGetters
+
+
+

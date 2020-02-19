@@ -1,0 +1,13 @@
+在router上设置
+scrollBehavior
+两个参数或者三个参数
+to,from
+返回一个对象{x,y}
+还可以返回一个selector，css选择器
+
+还可以和锚点产生作用
+
+hash模式下是第一个#号以后的内容
+hash是第二个静好后
+
+hash模式下没有第三个参数，history模式下才有第三个参数，savedPosition

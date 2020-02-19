@@ -1,0 +1,7 @@
+触发data属性的get，订阅者（dep）和观察者（watche）互相获取依赖
+
+dep.depend收集依赖
+
+每一个Dep有subs属性，subs属性专门存放Watcher的，一旦有数据变化，便会通知里面的watcher，是一个数组。
+
+里面的Watcher有deps属性和newdeps属性，newdeps维护更新用的

@@ -1,0 +1,17 @@
+预编译语言，flow，ts，sass，less，前两个js，后两个css
+
+flow类型检测器，让css更加超强大
+
+模板引擎，jsx，ejs
+
+代码检查工具，eslint，stylelint
+
+代码编译，babel，postcss
+
+前端框架，vue、react、angular
+
+打包工具，webpack，rollup
+
+脚手架工具，yeoman、create-reactapp，vue-cli
+
+代码管理工具，git，svn
